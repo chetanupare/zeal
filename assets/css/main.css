@@ -12395,6 +12395,11 @@ img[src*="doctor-02.jpg"] {
     margin-bottom: 80px;
 }
 
+/* Doctor box spacing */
+.dr-box {
+    margin-top: 85px;
+}
+
 /* Doctor box row spacing */
 .row.gy-50.dr-box {
     margin-top: 165px;
