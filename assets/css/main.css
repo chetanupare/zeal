@@ -12376,6 +12376,18 @@ img[src*="doctor-02.jpg"] {
 /* Add spacing below "Our Management Team" title */
 .section-title-wrapper-4.sec.text-center {
     margin-bottom: 60px !important;
+    position: relative;
+    z-index: 10;
+}
+
+/* Ensure doctor cards don't go above the title on hover */
+.doctor-item-2 {
+    position: relative;
+    z-index: 1;
+}
+
+.doctor-card-2 {
+    z-index: 2 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
